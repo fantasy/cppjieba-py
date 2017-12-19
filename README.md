@@ -1,5 +1,4 @@
 # cppjieba-py
-python extension for cppjieba 
 
 cppjieba-py 是 [cppjieba](https://github.com/yanyiwu/cppjieba)的 Python 封装。
 

@@ -2,7 +2,7 @@
 
 cppjieba-py 是 [cppjieba](https://github.com/yanyiwu/cppjieba)的 Python 封装。
 
-## 性能
+## 性能
 
 测试[方案](https://yanyiwu.com/work/2015/06/14/jieba-series-performance-test.html)：先按行读取文本围城到一个数组里，然后循环对围城每行文字作为一个句子进行分词。因为只对围城这本书分词一遍太快了，容易误差。 所以循环对围城这本书分词50次。基本上每次分词耗时都很稳定。 分词算法都是采用【精确模式】。
 

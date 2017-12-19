@@ -40,7 +40,7 @@ struct JiebaCpp
 
 PYBIND11_MODULE(cppjieba_py, m)
 {
-    m.doc() = "pybind11 example plugin"; // optional module docstring
+    m.doc() = "python extension for cppjieba"; // optional module docstring
 
     py::class_<JiebaCpp>(m, "jieba")
         .def(py::init<const std::string &>())
